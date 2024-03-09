@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Página</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="login">
+            <div id="pessoa-login">
+                <img src="pessoa.png" alt="pessoa">
+            </div>
+            <p id="login-txt">Entre na sua conta</p>
+
+            <form action="#" method="post">
+                <input type="text" name="user" id="iuser" placeholder="Usuário" required> <br>
+                <input type="password" name="pass" id="ipass" placeholder="Senha" required> <br>
+                <input type="submit" value="Entrar" id="btn-entrar">
+            </form>
+
+            <div id="login-links">
+                <a href="#">Esqueci a senha</a>
+                <a href="#" onclick="cadastrar()">Cadastra-se</a>
+            </div>
+        </div>
+
+
+        <img src="seta.png" alt="Seta" id="seta" onclick="voltar()">
+        <div id="cadastro">
+
+            <p id="cadastro-txt">Cadastre-se</p>
+
+            <form action="#" method="post">
+                <input type="text" name="userCad" id="iuserCad" placeholder="Nome Completo" required>
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+                <input type="password" name="passCad" id="ipassCad" placeholder="Senha" required>
+                <input type="password" name="passConf" id="ipassConf" placeholder="Repita a senha" required>
+                <input type="submit" value="Cadastrar" id="cadastrar-btn">
+            </form>
+        </div>
+
+        <menu id="menu">
+            <ul>
+                <div id="editar">
+                    <li>Editar</li>
+                    <nav id="nav-editar">
+                        <a href="#">Alterar</a>
+                        <a href="#">Excluir</a>
+                        <a href="#">Sair</a>
+                    </nav>
+                </div>
+                <div id="sobre">
+                    <li>Sobre</li>
+                    <nav id="nav-sobre">
+                        <a href="#">A empresa</a>
+                        <a href="#">Nossos Produtos</a>
+                    </nav>
+                </div>
+            </ul>
+        </menu>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
