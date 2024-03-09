@@ -29,6 +29,7 @@ div#login, div#cadastro{
 
 div#cadastro {
     display: none;
+    margin-top: 100px;
 }
 
 div#pessoa-login {
@@ -156,9 +157,9 @@ div#sobre:hover nav#nav-sobre {
 
 img#seta {
     display: none;
+    margin-inline: auto;
+    margin-top: 50px;
     width: 70px;
-    position: fixed;
-    margin-left: 600px;
     background-color: white;
     border-radius: 50px;
     box-shadow: 0px 10px 50px 0px #2c2f36af;
