@@ -69,7 +69,7 @@ input#iuser, input#ipass, input#iuserCad, input#iemail, input#ipassCad, input#ip
     font-size: 18px;
     border: none;
     background: transparent;
-    padding-bottom: 5px;
+    padding: 5px;
     border-bottom: 1px solid white;
     color: white;
     font-weight: 200;
